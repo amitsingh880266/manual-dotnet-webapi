@@ -1,1 +1,4 @@
-﻿Console.WriteLine("Hello, World!");
+﻿using Microsoft.Extensions.Hosting;
+var builder = WebApplication.CreateBuilder(args);
+var app = builder.Build();
+app.Run();
